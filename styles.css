@@ -41,3 +41,30 @@
     border: 4px solid red;
     background: skyblue;
 }
+
+.content-1 {
+    margin: 0px;
+    height: auto;
+    padding: 0px;
+    background: rgb(224, 221, 33);
+    border: 4px solid red;
+    display: flex;
+}
+
+.content-1-text {
+    margin-left: 20px;
+    max-width: 400px;
+    max-height: fit-content;
+    border: 4px solid red;
+    background: skyblue;
+    padding: 10px;
+}
+
+.content-1-img {
+    margin-left: 20px;
+    max-width: auto;
+    height: 250px;
+    border: 4px solid red;
+    background: skyblue;
+    padding: 10px;
+}

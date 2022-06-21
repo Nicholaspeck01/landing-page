@@ -126,12 +126,14 @@ padding: 0px;
 background: rgb(247, 247, 247);
 display: flex 1;
 color: white;
+outline: solid red;
 }
 
 .box2-header {
+    border: solid red;
     display: flex;
     margin: 0px;
-    height: 80px;
+    height: 60px;
     align-items: center;
     justify-content: center;
     color: rgb(53, 52, 70);
@@ -139,10 +141,30 @@ color: white;
 
 .box2-minibox-container {
 margin: 0px;
-height: 400px;
+height: 340px;
 padding: 0px;
 background: rgb(247, 247, 247);
 display: flex 1;
-color: rgba(53, 52, 70, 0.829);
+color: rgba(53, 52, 70, 0.897);
 outline: solid red;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.box2-boxes {
+    border: solid rgb(0, 174, 255);
+    border-radius: 8px;
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    
+}
+
+.box2container {
+    outline: solid red;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    
 }
